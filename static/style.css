@@ -1,0 +1,216 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic,700italic|Droid+Sans:400,700|Lato:300,400,700,300italic,400italic,700italic|PT+Sans:400,700,400italic,700italic|Open+Sans:300italic,400italic,600italic,700italic,400,600,300,700);@media (min-width: 1200px) {
+	.container {
+		max-width: 1570px;
+	}
+}
+body {
+	background: #fff;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	font-weight: 600;
+}
+.z-navbar {
+	border: 0;
+	margin-bottom: 0;
+}
+.z-logo {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.z-usernav {
+	margin: 10px 15px;
+}
+.z-usernav > li > a {
+	padding: 15px;
+	height: 50px;
+}
+.z-user-profile-picture {
+	height: 40px;
+	margin: -10px 0;
+}
+
+.z-toolbar {
+	background-color: #444;
+	border: 0;
+	color: #999;
+	margin-bottom: 0;
+	padding: 10px 15px 10px 0;
+	height: 30px;
+	min-height: 50px;
+	z-index: 1;
+}
+.z-toolbar .navbar-brand {
+	color: #fff;
+	font-size: 18px;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+	padding: 5px 15px;
+}
+.z-subnav a:hover .caret {
+	border-top-color: #fff;
+}
+.z-subnav .navbar-nav .open>a.btn {
+	background-color: #858585;
+}
+.z-subnav a.btn {
+	margin-top:10px;
+}
+.z-panel {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: auto;
+}
+.z-panel-container {
+	top: 120px;
+	overflow: hidden;
+}
+.z-panel-navigation {
+	background-color: #444;
+	right: auto;
+	width: 180px;
+}
+.z-panel-navigation .nav a {
+	border-radius: 0;
+	color: #999;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+}
+.z-panel-navigation .nav a:hover {
+	background-color: #3c3c3c;
+	color: #ccc;
+}
+.z-panel-navigation .nav li {
+	margin-top: 0;
+}
+.z-panel-navigation .nav .active a,
+.z-panel-navigation .nav .active a:hover {
+	background-color: #333;
+}
+.z-panel-main {
+	left: 180px;
+}
+.z-panel-main-content {
+	border-top: 1px solid #ddd;
+	padding: 0 15px;
+	top: 90px;
+}
+.z-panel-side-content {
+	top: 50px;
+	padding: 15px;
+}
+.z-panel-side-open .z-panel-main {
+	right: 500px;
+}
+.z-panel-side {
+	background-color: #f5f5f5;
+	border-left: 1px solid #ddd;
+	width: 500px;
+	left: 100%;
+}
+.z-panel-side-open .z-panel-side {
+	left: auto;
+}
+.z-panel-header {
+	background-color: #f5f5f5;
+	border-bottom: 1px solid #ddd;
+	height: 50px;
+	padding: 10px 15px;
+}
+.z-panel-header h2,
+.z-panel-header h3 {
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 15px 0 0;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.z-panel-header h2 {
+	font-size: 18px;
+}
+.z-panel-header h3 {
+	font-size: 16px;
+	margin: 0 15px;
+	width: 340px;
+}
+.z-buttons {
+	padding: 5px 15px;
+}
+.z-view-data li {
+	clear: left;
+	float: left;
+	width: 100%;
+}
+.z-view-data .z-data-label {
+	color: #999;
+	clear: left;
+	float: left;
+	font-weight: 400;
+	text-align: right;
+	width: 150px;
+}
+.z-view-data .z-data-value {
+	display: block;
+	margin-left: 160px;
+	margin-bottom: 5px;
+}
+.z-panel-side-content h4:first-child {
+	margin-top: 0;
+}
+.z-panel-side-content h4 {
+	font-size: 16px;
+}
+.z-job-panel {
+	box-shadow: none;
+	border-radius: 0;
+	border-width: 0;
+	border-top-width: 1px;
+	margin: 0 -15px 15px -15px;
+}
+.z-job-panel .nav li {
+	margin: 0;
+}
+.z-job-panel .nav a {
+	border-bottom: 1px solid #ddd;
+	border-radius: 0;
+	height: 60px;
+	position: relative;
+}
+.z-job-panel .active a {
+	border-color: #177fc3;
+}
+.z-job-panel .active .text-muted {
+	color: inherit;
+}
+.z-job-name,
+.z-job-description,
+.z-job-cost,
+.z-job-assets {
+	position: absolute;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.z-job-name,
+.z-job-description {
+	left: 15px;
+	right: 80px;
+}
+.z-job-cost,
+.z-job-assets {
+	right: 15px;
+	width: 80px;
+	text-align: right;
+}
+.z-job-name,
+.z-job-cost {
+	bottom: 28px;
+}
+.z-job-description,
+.z-job-assets {
+	top: 32px;
+}
