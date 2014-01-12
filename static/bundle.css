@@ -60,7 +60,6 @@ h1, h2 {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
-  margin: 0.5em;
 }
 
 .flex-leftbar {
@@ -95,6 +94,7 @@ h1, h2 {
   -webkit-align-self: auto;
   -ms-flex-item-align: auto;
   align-self: auto;
+  margin: 0.5em;
 }
 
 .JobDetails {
@@ -112,6 +112,7 @@ h1, h2 {
   -ms-flex-item-align: auto;
   align-self: auto;
   width: 20em;
+  margin: 0.5em;
   margin-left: 1em;
 }
 

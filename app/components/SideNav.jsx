@@ -17,7 +17,7 @@ var SideNav = React.createClass({
     });
 
     return (
-      <nav>
+      <nav className="SideNav z-panel-navigation" role="navigation">
         <ul className="nav nav-pills nav-stacked">
           {items}
         </ul>

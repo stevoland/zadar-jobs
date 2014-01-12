@@ -70,8 +70,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .z-panel-navigation {
 	background-color: #444;
-	right: auto;
-	width: 180px;
 }
 .z-panel-navigation .nav a {
 	border-radius: 0;

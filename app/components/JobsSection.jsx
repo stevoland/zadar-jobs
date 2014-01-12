@@ -73,9 +73,10 @@ var JobsSection = React.createClass({
         contextButons = this.state.checkedIds.length ?
         (
           <span>
-            {' '}<Button onClick={this.handleCloneClick}>Clone</Button>
+            {' '}<Button bsStyle="default" onClick={this.handleCloneClick}>Clone</Button>
             {' '}<ButtonDropdown
                   title="More"
+                  bsStyle="default"
                   options={moreOptions}
                   onClick={this.handleMoreClick}
                 />

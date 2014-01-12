@@ -8,7 +8,7 @@ var JobListItem = React.createClass({
   render: function () {
     var className = React.addons.classSet({
       "JobListItem": true,
-      "selected": this.props.selected
+      "active": this.props.selected
     });
 
     return (
